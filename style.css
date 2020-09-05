@@ -6,7 +6,7 @@ body {
 
 
 
-/* Body Header */
+
 
 #body-header {
     height: 65vh;
@@ -20,7 +20,7 @@ body {
 
 
 
-/* Horizontal Lists */
+
 
 
 .horizontal-list {
@@ -63,7 +63,7 @@ body {
 
 
 
-/* Name and Social Icons*/
+
 
 #name-social-container {
     margin-top: 20vh;
@@ -99,7 +99,7 @@ body {
 
 
 
-/*Section Classes*/
+
 
 section {
     display: flex;
@@ -132,7 +132,7 @@ section:nth-child(2n + 1) {
 
 
 
-/*About Section*/
+
 
 #about {
     height: auto;
@@ -142,40 +142,43 @@ section:nth-child(2n + 1) {
 }
 
 #my-image {
-    height: 18rem;
-    width: 18rem;
+    height: 12rem;
+    width: 12rem;
     margin: auto;
-    margin-top: 6vh;
-    margin-left: 17vh;
+    margin-top: -17vh;
+    /*margin-left: 17vh;*/
 }
 
 #my-image img {
-    height: 100%;
-    width: 100%;
+    height: 110%;
+    width: 110%;
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 1px 1px 10px 2px lightgrey;
 }
 
 #about-para {
-    padding: 5px;
-    width: 50%;
+    padding: 30px;
+    width: 70%;
     text-align: justify;
     color: grey;
     line-height: 28px;
     font-size: 1.1rem;
-    margin: 10px;   
+    margin: auto;   
 }
+/*
 .bio{
     margin-left: 0px;
     margin-top: -245px;
     margin-left: 120px;
     align-self: center;
 }
+*/
 
 
 
-/*Skills Section*/
+
+
 
 .skills-display {
     width: 75%;
@@ -210,7 +213,7 @@ section:nth-child(2n + 1) {
 
 
 
-/* Work Experience */
+
 
 .timeline {
     position: relative;
@@ -270,7 +273,7 @@ section:nth-child(2n + 1) {
     top: 10%;
     left: 50%;
     border: 1px dashed #0096fa6b;
-    height: 90%;
+    height: 85%;
     color: #433E3F;
 }
 
@@ -318,7 +321,7 @@ section:nth-child(2n + 1) {
 
 
 
-/* Portfolio Section */
+
 
 #portfolio-container {
     box-sizing: border-box;
@@ -365,7 +368,7 @@ section:nth-child(2n + 1) {
 
 
 
-/* Contact Form */
+
 
 #contact {
     background-color: #0abcf9;
@@ -480,7 +483,7 @@ button:focus {
 
 
 
-/* Common Margin Classes */
+
 
 .m0 {
     margin: 0;
@@ -496,7 +499,7 @@ button:focus {
 
 
 
-/*common color classes */
+
 
 .text-highlight {
     color: #2857a4;
@@ -506,7 +509,7 @@ button:focus {
 
 
 
-/* setting background-color */
+
 
 .m-blue {
     color: #2857a4;
@@ -530,7 +533,7 @@ button:focus {
 
 
 
-/*Percentage Classes */
+
 
 .eighty-five-percent {
     height: inherit;
@@ -550,3 +553,4 @@ button:focus {
     height: inherit;
     width: 70%
 }
+
