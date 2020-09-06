@@ -77,7 +77,7 @@ body {
     margin-bottom: 0.5rem;
 }
 .color-change{
-    animation: colorchangename 2s infinite;
+    animation: colorchangename 5s infinite;
     text-align: center;
 
 }
@@ -87,6 +87,7 @@ body {
     50%{color: white;}
     100%{color: purple;}
 }
+
 .social-icons li a i {
     padding: 10px;
     font-size: 1rem;
@@ -110,10 +111,21 @@ section {
 
 section:nth-child(2n) {
     background-color:#9e9b9b29;
+    animation: abc 7s infinite;
+}
+@keyframes abc{
+    0%{background-color: white;}
+    50%{background-color: white;}
 }
 
 section:nth-child(2n + 1) {
     background-color: white;
+    animation: ced 7s infinite;
+}
+@keyframes ced{
+    0%{background-color: #9e9b9b29;}
+    50%{background-color:#9e9b9b29;}
+
 }
 
 .section-heading {
@@ -157,6 +169,14 @@ section:nth-child(2n + 1) {
     box-shadow: 1px 1px 10px 2px lightgrey;
 }
 
+.img-chnge{
+    animation: image 5s infinite;
+}
+@keyframes image{
+    0%{src: url(image/blockchain.jpg);}
+    50%{src: url(image/blockchain.jpg);}
+    30%{margin-left: 10vh;}
+}
 #about-para {
     padding: 30px;
     width: 70%;
@@ -372,10 +392,19 @@ section:nth-child(2n + 1) {
 
 #contact {
     background-color: #0abcf9;
-    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    animation: con 5s infinite;
+    background-image: linear-gradient(50deg, #2ca428 0%, #665e30 60%);
     color: white;
     padding-bottom: 40px;
 }
+/*
+@keyframes con{
+    0%{background-image: red;}
+    25%{background-image: purple;}
+    50%{background-image: white;}
+    100%{background-image: purple;}
+}
+*/
 
 
 #contact h1 span {
@@ -472,6 +501,14 @@ textarea {
     margin: 40px 10px 10px;
     padding: 10px 14px 20px 10px;
 
+}
+#contact-form-container #error-msg{
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fe8b8e;
+    text-align:center;
+    font-size: 14px;
+    transition: all 0.5s ease;
 }
 
 input:focus,
